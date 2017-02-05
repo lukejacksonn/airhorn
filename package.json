@@ -2,6 +2,12 @@
   "name": "airhorn",
   "version": "1.0.0",
   "description": "A sample web app that lets you use your site as an airhorn.",
+  "directories": {
+    "app": "dist"
+  },
+  "scripts": {
+    "build": "gulp"
+  },
   "devDependencies": {
     "browser-sync": "^2.7.13",
     "del": "^1.2.0",
